@@ -4,9 +4,9 @@ class Bird extends BaseClass {
     this.image = loadImage("sprites/bird.png");
   }
 
-   display() {
-   
-    
+  display() {
+    //this.body.position.x = mouseX;
+    //this.body.position.y = mouseY;
     super.display();
   }
 }
